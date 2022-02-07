@@ -1,6 +1,6 @@
 # Overview
 
-This repository is for documenting and demonstrating a bug in the 1.0.0 version of [Azure/azure-functions-openapi-extension](https://github.com/Azure/azure-functions-openapi-extension).
+This repository is for documenting and demonstrating [a bug](https://github.com/Azure/azure-functions-openapi-extension/issues/356) in the 1.0.0 version of [Azure/azure-functions-openapi-extension](https://github.com/Azure/azure-functions-openapi-extension).
 
 When attempting to respond with a model that has a recursive object reference there is a side effect where other properties can no longer carry the same type.
 
